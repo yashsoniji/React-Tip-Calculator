@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.people-number::placeholder {
+  font-size: 14.5px;
+}
+
+input {
+  outline: 0;
+  border-bottom: 1.8px solid rgb(0, 166, 255);
+  padding-bottom: 5px;
+}
+
+input:focus,
+select:focus {
+  border: 1px solid #0074d9;
+  outline: none;
+}
+
+select {
+  border-bottom: 1.8px solid rgb(0, 166, 255);
+  padding-bottom: 5px;
+}
+
+.tip{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
